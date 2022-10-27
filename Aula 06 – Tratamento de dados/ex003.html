@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa...</title>
+    <style>
+        /* Comentário em CSS */
+        body {
+            background-color: blueviolet;
+            color: white;
+            font: normal 20px arial;
+        }
+    </style>
+</head>
+<body>
+    <!-- Comentário em HTML -->
+    <h1>Olá, mundo!</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati dolore porro quisquam. Velit aut, doloremque et illum nesciunt facilis asperiores veniam. Saepe delectus molestiae, eius aliquid natus quos earum consectetur.</p>
+
+    <script>        
+        /* CONVERTE PARA NÚMERO INTEIRO
+        var n1 = Number.parseInt(window.prompt('Digite um número: ')) //string
+        var n2 = Number.parseInt(window.prompt('Digite outro número: ')) //string 
+        */
+
+        /* COMVERTE PARA NÚMERO REAL
+        var n1 = Number.parseFloat(window.prompt('Digite um número: ')) //string
+        var n2 = Number.parseFloat(window.prompt('Digite outro número: ')) //string 
+        */
+
+        /* CONVERTE PARA OS AMBOS OS CASOS ANTERIORES */
+        var n1 = Number(window.prompt('Digite um número: ')) //string
+        var n2 = Number (window.prompt('Digite outro número: ')) //string         
+        var s = n1 + n2
+        window.alert(`A soma entre ${n1} e ${n2} é igual à ${s}`) //concatenação
+        // (number + number) para adição
+        // (string + string) para concatenação
+    </script>
+</body>
+</html>
